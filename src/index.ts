@@ -26,7 +26,7 @@ const connection = mysql.createConnection({
   database: 'authentication'
 });
 
-app.get('/', (_req, res) => {
+app.get('/', (req, res) => {
   res.send('Well done!');
 });
 
