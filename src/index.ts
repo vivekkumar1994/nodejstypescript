@@ -23,7 +23,7 @@ const connection = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
   password: '',
-  database: 'authentication'
+  database: 'eccomerce'
 });
 
 app.get('/', (req, res) => {
